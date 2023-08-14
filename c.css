@@ -1,0 +1,67 @@
+#layout
+{
+	height: 600px;
+	width: auto;
+	background-color: whitesmoke;
+}
+#banner
+{
+	height: 100px;
+	width: auto;
+	background-color: dimgray;
+}
+#menu
+{
+	height: 50px;
+	width: auto;
+	background-color: darkgray;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#content
+{
+	height: 400px;
+	width: auto;
+	background-color: dimgray;
+}
+#footer
+{
+	height: 50px;
+	width: auto;
+	background-color: darkgray;
+}
+
+.drop_content
+{
+	display: none;
+	flex-direction: column;
+	text-decoration: none;
+
+}
+.dropdown:hover .drop_content
+{
+	display: flex;
+}
+
+button
+{
+	width: 150px;
+	padding: 12px 8px;
+	border-radius: 6px;
+}
+a:hover
+{
+	background-color: antiquewhite;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
